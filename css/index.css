@@ -80,9 +80,9 @@ p {
 .navTop {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: flex-end;
-    width: 600px;
+    width: 643px;
 }
 
 .navTop a {
@@ -121,7 +121,7 @@ p {
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .middle-content .boxes .box {
