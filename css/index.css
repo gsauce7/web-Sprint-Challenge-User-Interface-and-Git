@@ -175,9 +175,48 @@ p {
     background-color: dodgerblue;
 }
 
+.container.about-page {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.container.about-page h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
+.container.about-page span.button {
+    border: 2px solid black;
+    padding: 5px 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    border-radius: 5px;
+}
 
+.container.about-page .itemFull {
+    border-bottom: 1px dashed black;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
 
+.container.about-page .itemHalf {
+    border-bottom: 1px dashed black;
+    width: 370px;
+    margin-top: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.container.about-page .itemLast {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
 
 .bottom-content {
     display: flex;
@@ -211,3 +250,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
